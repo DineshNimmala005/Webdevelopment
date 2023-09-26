@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="AMDLogo.PNG">
+    </head>
+    <body>
+        <style>
+            body
+            {
+                background-image: url('RyzenImg.PNG');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: 100% 100%;
+            }
+        </style>
+        <header>
+        <!-- ul=Unordered list -->
+
+        <!-- action attribut = backent code like exe,php and .Js extention codes need to added-->
+        <form action="GPUList.html">
+            Username : <input type="email" name="Username" required> 
+            Password : <input type="password" name="password" required minlength="7"><br><br>
+            Mobile no : <input type="tel" maxlength="10">
+            Email : <input type="email" name="email" required><br><br>
+            
+            <!--value equal to default display text-->
+            Location : 
+            <!--Select= Dropdown tag and option= options inside dropdown-->
+            <Select>
+                <option value="Hyd">Hyderabad</option>
+                <option value="Mum">Mumbai</option>
+                <option value="Del">Delhi</option>
+            </Select><br><br>
+            Gender<br>
+            <!--Type = Which type of input button it is like -->
+            Female:<input type="radio" name="Gender">
+            Male:<input type="radio" name="Gender"><br><br>
+            DOB <input type="date" name="DOB" required><br><br>
+            <input type="submit" value="SUBMIT"> <br><br>
+            Comments<br>
+            <!--textarea = Used to create text or comment boxes -->
+            <textarea cols="80" rows="5" name="Comments">
+
+            </textarea>
+
+        </form>
+        <!-- dl=Discriptional list -->
+        <dl>
+            <!-- dt=Discription title or  Discription term-->
+            <dt>Note : 
+                <!-- dd=Discription details -->
+                <dd>
+                    Code is in devlopment stage.
+                </dd>
+            </dt>
+        </dl>
+        </header>
+        <!--Entity are used be half of '<' and '>' symbols and to add particular symbols-->
+        <!--pre = tag which used to show complete data including spaces-->
+        <!--xmp = tag which used to show complete data including spaces,tags,charecters and line spaces-->
+    </body>
+</html>
